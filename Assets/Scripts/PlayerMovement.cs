@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         var posOld = (previousLane - Mathf.Floor(lanes * 0.5f)) * laneDistance;
         var posNew = (currentLane - Mathf.Floor(lanes * 0.5f)) * laneDistance;
 
-        transform.position = new Vector3(Mathf.Lerp(posOld,posNew,currentLerp),0,0);
+        transform.position = new Vector3(Mathf.Lerp(posOld,posNew,currentLerp), transform.position.y, 0);
         
     }
 }

@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         currentLane = (int)Mathf.Floor(lanes * 0.5f);
+        MoveLeft.action.Enable();
+        MoveRight.action.Enable();
     }
 
     void Update()

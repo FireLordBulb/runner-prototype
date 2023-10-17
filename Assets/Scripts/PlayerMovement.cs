@@ -16,6 +16,11 @@ public class PlayerMovement : MonoBehaviour
     private int previousLane = 0;
     private float currentLerp = 0;
 
+    private void Awake()
+    {
+        MoveLeft.action.Enable();
+        MoveRight.action.Enable();
+    }
     void Start()
     {
         currentLane = (int)Mathf.Floor(lanes * 0.5f);

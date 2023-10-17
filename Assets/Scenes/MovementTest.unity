@@ -320,6 +320,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a424fa535d8fa6a4fa36b0e70f2ef885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lanes: 3
+  laneDistance: 2
+  lerpSpeed: 0
+  MoveLeft: {fileID: 201479878845530747, guid: ce3a4797fc387654ebbb1a4f4389fe09, type: 3}
+  MoveRight: {fileID: 8720981546767420305, guid: ce3a4797fc387654ebbb1a4f4389fe09,
+    type: 3}
 --- !u!114 &775741275
 MonoBehaviour:
   m_ObjectHideFlags: 0

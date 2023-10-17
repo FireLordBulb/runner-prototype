@@ -322,7 +322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lanes: 3
   laneDistance: 2
-  lerpSpeed: 0
+  lerpSpeed: 10
   MoveLeft: {fileID: 201479878845530747, guid: ce3a4797fc387654ebbb1a4f4389fe09, type: 3}
   MoveRight: {fileID: 8720981546767420305, guid: ce3a4797fc387654ebbb1a4f4389fe09,
     type: 3}
